@@ -61,10 +61,10 @@
 			<id>nexus-repo</id>
 			<url>http://65.0.71.23:8081/repository/maven-snapshots/</url>
 		</snapshotRepository>
-		<releaseRepository>
+		<repository>
 			<id>nexus-repo</id>
 			<url>http://65.0.71.23:8081/repository/maven-releases/</url>
-		</releaseRepository>
+		</repository>
 	</distributionManagement>
 
 </project>
