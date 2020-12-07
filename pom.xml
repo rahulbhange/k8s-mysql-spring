@@ -56,5 +56,15 @@
 			</plugin>
 		</plugins>
 	</build>
+		<distributionManagement>
+		<SnapshotRepository>
+			<id>nexus-repo</id>
+			<url>http://65.0.71.23:8081/repository/maven-snapshots/</url>
+		</SnapshotRepository>
+		<ReleaseRepository>
+			<id>nexus-repo</id>
+			<url>http://65.0.71.23:8081/repository/maven-releases/</url>
+		</ReleaseRepository>
+	</distributionManagement>
 
 </project>
