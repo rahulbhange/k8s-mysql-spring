@@ -56,15 +56,15 @@
 			</plugin>
 		</plugins>
 	</build>
-		<distributionManagement>
-		<SnapshotRepository>
+	<distributionManagement>
+		<snapshotRepository>
 			<id>nexus-repo</id>
 			<url>http://65.0.71.23:8081/repository/maven-snapshots/</url>
-		</SnapshotRepository>
-		<ReleaseRepository>
+		</snapshotRepository>
+		<releaseRepository>
 			<id>nexus-repo</id>
 			<url>http://65.0.71.23:8081/repository/maven-releases/</url>
-		</ReleaseRepository>
+		</releaseRepository>
 	</distributionManagement>
 
 </project>
